@@ -1,0 +1,22 @@
+#main_postPage {
+    height: 170px;
+    width: 300px;
+    border: 2px solid black;
+    transition: box-shadow 0.1s ease-in-out;
+    box-shadow: none;
+    margin: 100px 0px 0px 360px;
+    padding: 20px;
+}
+
+#main_postPage:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+#main_postPage div {
+    margin: 2px;
+    padding: 5px;
+}
+
+#btn_postPage {
+    margin-left: 100px;
+}

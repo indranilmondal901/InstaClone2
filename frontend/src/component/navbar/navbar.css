@@ -1,0 +1,40 @@
+#main_navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: #333; */
+    color: #fff;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 2px solid #006238;
+  }
+
+
+
+#logo_navbar {
+    /* margin-right: auto; */
+    height: 30px;
+    width: 30px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#camera_navbar {
+    /* margin-left: auto; */
+    height: 30px;
+    width: 30px;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+#navbar_heading{
+    font-size: 30px;
+    margin: 0px 0px 0px 10px;
+    width: 2000px;
+    height: 40px;
+    text-align: left;
+    /* font: normal normal normal 30px/80px Palatino; */
+    letter-spacing: 0px;
+    color: #006238;
+    opacity: 1;
+}
