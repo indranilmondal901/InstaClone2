@@ -28,7 +28,7 @@ export default function PostPage() {
         formdata.append("author", username);
         formdata.append("location", location);
         formdata.append("description", description);
-        fetch("http://localhost:8080/user", {
+        fetch("https://instaclone2-os99.onrender.com/user", {
             method: "POST",
             body: formdata
         })

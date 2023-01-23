@@ -13,7 +13,7 @@ export default function ViewPage() {
     const [data, setData] = useState("");
 
     const fetchApi = async () => {
-        const result = await fetch("http://localhost:8080/user");
+        const result = await fetch("https://instaclone2-os99.onrender.com/user");
         setData(await result.json())
     }
 
@@ -43,7 +43,7 @@ export default function ViewPage() {
                         </div>
                         <p id="location_view">{element.location}</p>
                         <div id="img_view">
-                            <img src={`http://localhost:8080/user/${element.fileName}`} alt="posted_img" />
+                            <img src={`https://instaclone2-os99.onrender.com/user/${element.fileName}`} alt="posted_img" />
                         </div>
                         <div id="like_share">
                             <img src={like} alt="like" id="like" />
